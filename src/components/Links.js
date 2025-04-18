@@ -1,11 +1,11 @@
 import React from "react";
+import { github, linkedin } from "../data/user";
 
-function Links({ github, linkedin }) {
+function Links() {
   return (
     <div>
-      <h3>Links</h3>
-      <a href={github}>{github}</a>
-      <a href={linkedin}>{linkedin}</a>
+      <a href={github}>GitHub</a>
+      <a href={linkedin}>LinkedIn</a>
     </div>
   );
 }
